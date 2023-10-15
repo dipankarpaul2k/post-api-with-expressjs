@@ -20,4 +20,3 @@
 
 - The `router` object, which contains the registered route handlers, is exported as the default module.
 
----
