@@ -1,0 +1,32 @@
+### home route
+GET http://localhost:5000
+
+### get all post
+GET http://localhost:5000/posts
+
+### get a single post
+GET http://localhost:5000/posts/3
+
+### add a new post
+POST http://localhost:5000/posts
+Content-Type: application/json
+
+{
+  "username": "new user",
+  "content": "This is the body of the NEW post.",
+  "likes": 20,
+  "comments": 10
+}
+
+### update post
+PATCH http://localhost:5000/posts/6
+Content-Type: application/json
+
+{
+  "content": "This is the body of the UPDATE post.",
+  "likes": 19,
+  "comments": 8
+}
+
+### delete post
+DELETE http://localhost:5000/posts/10
