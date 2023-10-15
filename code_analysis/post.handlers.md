@@ -1,5 +1,3 @@
-# Code Analysis
-
 ## Inputs
 
 - `req`: The request object containing information about the HTTP request.

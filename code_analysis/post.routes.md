@@ -1,5 +1,3 @@
-# Code Analysis
-
 ## Inputs
 
 - `express`: The Express.js library used to create the router.
@@ -16,7 +14,6 @@
 
 ---
 
-## Outputs
+## Output
 
 - The `router` object, which contains the registered route handlers, is exported as the default module.
-
