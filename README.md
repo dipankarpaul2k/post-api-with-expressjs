@@ -2,7 +2,6 @@
 
 It is a simple api that I built for practicing CURD operations, but if you still want to try it out, then follow the steps mentioned below 👇
 
----
 
 ## Installation & Usage
 
@@ -31,7 +30,6 @@ npm start
 # Access the API in your web browser
 http://localhost:5000/
 ```
----
 
 ## Endpoints
 
@@ -72,7 +70,6 @@ http://localhost:5000/posts/:postId
 # Uelete a single post
 http://localhost:5000/posts/:postId
 ```
----
 
 ## Dependencies
 
@@ -89,7 +86,6 @@ Here are some of the major dependencies I have used in this project:
     "pino-pretty": "^10.2.3"
   }
 ```
----
 
 ## Author
 
