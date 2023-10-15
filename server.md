@@ -20,4 +20,3 @@
 6. Add the router middleware to the app, with the root path ("/").
 7. Start the server on the specified port (5000) and log a message indicating the server is running.
 
----
